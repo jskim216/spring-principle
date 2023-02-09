@@ -14,7 +14,7 @@ public class OrderServiceTest {
 
     @Test
     void createOrder() {
-        Long memberId = 1L; // long 은 null 허용하지 않기에 Long 사용
+        Long memberId = 1L; // long 은 null 허용하지 않기에 Long 사용 Long 은 Wrapping 된 Class
         Member member = new Member(memberId, "memberA", Grade.VIP);
         memberService.join(member);
 
