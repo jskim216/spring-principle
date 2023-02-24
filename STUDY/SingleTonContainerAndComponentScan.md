@@ -104,11 +104,16 @@
 
 ### FilterType 옵션
 
-- FilterType.ANNOTATION        기본값, 어노테이션을 인식
-- FilterType.ASSIGNABLE_TYPE   지정한 타입과 자식타입을 인식
-- FilterType.ASPECTJ           AspectJ 패턴 사용
-- FilterType.REGEX             정규 표현식
-- FilterType.CUSTOM            TypeFilter 인터페이스를 구현하여 처리
+- FilterType.ANNOTATION        
+  - 기본값, 어노테이션을 인식
+- FilterType.ASSIGNABLE_TYPE
+  - 지정한 타입과 자식타입을 인식
+- FilterType.ASPECTJ           
+  - AspectJ 패턴 사용
+- FilterType.REGEX             
+  - 정규 표현식
+- FilterType.CUSTOM            
+  - TypeFilter 인터페이스를 구현하여 처리
 
 ### 중복 등록과 충돌
 
